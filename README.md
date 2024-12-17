@@ -29,3 +29,33 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 =======
 # AngularTaskWithMaterial
 >>>>>>> 13850855b4ebbeaab98d45b5dfcc3e603696371c
+
+
+# Test Technique - Application Angular Niveau 1 (Version avec Angular Material)
+
+## Versions utilisées :
+- **Node.js** : v20.16.0
+- **npm** : v10.2.0
+- **Framework** : Angular v18.1.0
+- **UI Library** : Angular Material v17.0.0
+
+## Fonctionnalités :
+1. **Pagination** : 
+   - Par défaut, 10 éléments par page.
+   - Options disponibles : 5, 10, ou 20 éléments par page (modifiable dans le composant `MatPaginator`).
+2. **Tri** : 
+   - Fonctionnalité de tri sur plusieurs colonnes : **ID, Prénom, Nom, Âge, Salaire**.
+   - Tri interactif (ascendant/descendant) en cliquant sur l'en-tête des colonnes.
+3. **Design** : 
+   - Utilisation de **Angular Material** pour un design moderne et interactif.
+   - Tableaux stylisés avec `MatTable` et `MatPaginator`.
+   - Responsive pour tous les appareils.
+4. **Accessibilité** : Déploiement de la page sur GitHub Pages. (via :
+    -code source : https://github.com/SaifeddineBENZAIED/AngularTaskWithMaterial
+    -template : https://saifeddinebenzaied.github.io/AngularTaskWithMaterial/
+    )
+
+## Instructions pour exécuter le projet :
+1. **Cloner le projet** :
+   ```bash
+   git clone https://github.com/SaifeddineBENZAIED/AngularTaskWithMaterial.git
